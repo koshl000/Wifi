@@ -1,0 +1,33 @@
+﻿   *{margin:0; padding:0;}
+        body{position:relative;}
+        #box{
+            position:absolute;
+            width:200px; height:200px;
+            border-radius:100px;
+            text-align:center;
+background: linear-gradient(to bottom, #b7deed 0%,#71ceef 58%,#21b4e2 88%,#b7deed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            animation-name:rint;
+            animation-duration:4s;
+            animation-timing-function:linear;
+            animation-direction:alternate;
+            animation-iteration-count:infinite;
+            
+        }
+        #box>h1{
+            line-height:200px;
+        }
+        #box:hover{
+            animation-play-state:paused;
+        }
+        @keyframes rint{
+            from{
+                left:0;
+                transform:rotate(0deg);
+            }
+           
+            
+            to{
+                left:1500px;
+                transform:rotate(360deg);
+            }
+        }
