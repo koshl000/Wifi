@@ -1,9 +1,0 @@
-﻿  test.cpp
-c:\users\a\documents\visual studio 2015\projects\test_cpp\test_cpp\test.cpp(14): warning C4101: 'b_eof': unreferenced local variable
-c:\users\a\documents\visual studio 2015\projects\test_cpp\test_cpp\test.cpp(12): warning C4101: 'readbyte': unreferenced local variable
-c:\users\a\documents\visual studio 2015\projects\test_cpp\test_cpp\test.cpp(13): warning C4101: 'writebyte': unreferenced local variable
-c:\users\a\documents\visual studio 2015\projects\test_cpp\test_cpp\test.cpp(11): warning C4101: 'buffer': unreferenced local variable
-  Source1.cpp
-  Generating Code...
-  test_cpp.vcxproj -> C:\Users\a\documents\visual studio 2015\Projects\test_cpp\x64\Debug\test_cpp.exe
-  test_cpp.vcxproj -> C:\Users\a\documents\visual studio 2015\Projects\test_cpp\x64\Debug\test_cpp.pdb (Full PDB)
